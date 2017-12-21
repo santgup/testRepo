@@ -1,2 +1,11 @@
 start locator --name=locator1 --port=10335  --dir=H:\Software\my_gemfire --classpath=H:\Software\my_gemfire\env\gfsecurity.properties;H:\Software\my_gemfire\appjar\santosh-data-model-1.2.0-SNAPSHOT.jar --security-properties-file=H:\Software\my_gemfire\env\gfsecurity.properties
 start server --name=server1 --server-port=40411  --dir=H:\Software\my_gemfire --J=-Dgemfire.ALLOW_PERSISTENT_TRANSACTIONS=true --J=-Xdebug --J=-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 --J=-Dgemfire.Query.VERBOSE=true --cache-xml-file=H:\Software\my_gemfire\env\cache.xml --classpath=H:\Software\my_gemfire\appjar\*
+gfsecurity.properties
+-------------------
+security-manager=com.nomura.cts.treasury.geodeSecurity.SecurityManager
+security-username=XXXXX
+security-password=XXXX
+
+security.json
+-----------
+in jsn format
