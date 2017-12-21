@@ -9,3 +9,9 @@ security-password=XXXX
 security.json
 -----------
 in jsn format
+
+////////////////gemfire start and stop/////////
+create diretory
+H:\Software\my_gemfire
+H:\Software\my_gemfire>H:\Software\Geode\apache-geode-1.2.0\bin\gfsh 
+gfsh terminal ill open.
